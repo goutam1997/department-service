@@ -1,0 +1,11 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: department-service
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    
